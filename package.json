@@ -1,0 +1,14 @@
+{
+  "name": "shopping-bhandar",
+  "version": "1.0.0",
+  "description": "Shopping Bhandar - Premium MERN E-Commerce App",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "dev": "node scripts/dev.js",
+    "dev:backend": "cd backend && npm run dev",
+    "dev:frontend": "cd frontend && npm run dev",
+    "install:all": "npm install && cd backend && npm install && cd ../frontend && npm install",
+    "build": "cd frontend && npm run build"
+  }
+}
